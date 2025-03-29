@@ -3,7 +3,11 @@
 FROM openjdk:18-jdk-buster
 
 LABEL version="2.0.1"
-
+LABEL homepage.group=Minecraft
+LABEL homepage.name="DawnCraft - 2.0.15"
+LABEL homepage.icon="https://media.forgecdn.net/avatars/961/81/638457067445019871.gif"
+LABEL homepage.widget.type=minecraft
+LABEL homepage.widget.url=Dawn-Craft:25565
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
