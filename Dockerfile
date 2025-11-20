@@ -4,7 +4,7 @@ FROM eclipse-temurin:18-jdk
 
 LABEL version="2.0.1"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="DawnCraft - 2.0.15"
+LABEL homepage.name="DawnCraft - 2.0.16"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/961/81/638457067445019871.gif"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://Dawn-Craft:25565
